@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 62px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlogo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-size: cover;
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+.add-frst {
+    color: #ccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    background-color: #febd68;
+    width: 700px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+}
+.nav-search :hover{
+    border: 2px solid orange;
+}
+
+.search-select {
+    background-color: #cdcdcd;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-left: 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 600px;
+    padding: 3px 7px;
+    line-height: normal;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.27rem;
+    color: #263140;
+}
+
+span {
+    font-size: 13px;
+}
+
+.nav-sec {
+    font-size:15px;
+    font-weight: 700;
+}
+span{
+    font-size: 13px;
+}
+.nav-ord{
+    font-size:18px;
+    font-weight: 700;
+}
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel {
+    position: relative;
+    height: 43px;
+    background-color: #263140;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between; 
+    padding: 0 10px; 
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.hero-section{
+    background-image:url(hero.png) ;
+    height: 450px;
+    background-size: cover;
+}
+.box{
+    
+    height: 300px;
+    width: 23%;
+     background-color: white;
+     padding: 20px 0px 15px;
+     margin-top: 15px;
+
+}
+.shop-section{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: rgb(240,240,252);
+   flex-wrap: wrap;
+   
+}
+.box-img{
+    height: 215px;
+    margin-top: 2px;
+    margin-left: 22px;
+    margin-right: 22px;
+    background-size: cover;
+   
+}
+h1{
+  font-size: 21px;  
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+}
+  p.p1{
+    margin-left: 20px;
+    margin-top: 7px;
+  }
+  .box-img1{
+    height: 215px;
+    background-size: cover;
+    margin-left:10px;
+    margin-right: 10px;
+  }
+  footer{
+    margin-top: 15px;
+  }
+  .foot-panel1{
+    margin-bottom: 0; 
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+  }
+  .foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  ul{
+    margin-top: 12px;
+  }
+  ul a{
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #dddddd;
+  }
+  .foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid #3a4553;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .logo{
+    background-size: cover;
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100px;
+  }
+  .foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+    display: flex;
+    text-align: center;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-evenly;
+  }
+  .pages{
+    justify-content: space-evenly;
+    font-size: 15px ;
+  }
+  
